@@ -33,7 +33,7 @@ from airbyte_cdk.sources.streams.http import HttpStream
 
 
 class MailChimpStream(HttpStream, ABC):
-    url_base = "https://us2.api.mailchimp.com/3.0/"
+    url_base = "https://us13.api.mailchimp.com/3.0/"
     primary_key = "id"
     page_size = 100
 
